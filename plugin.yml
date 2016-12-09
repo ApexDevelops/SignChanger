@@ -1,0 +1,14 @@
+---
+name: SignChanger
+author:  iiInfinityHD
+version: 1.0
+api: 2.0.0
+main: iiInfinityHD\SignChanger\Main
+commands:
+ signchange:
+  usage: "/signchange <line> <message ...>"
+  permission: signchange.change
+permissions:
+ signchange.change:
+  default: op
+...
